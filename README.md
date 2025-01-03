@@ -1,27 +1,23 @@
-> [!IMPORTANT]
-> If you are migrating from v3 (`git submodule` based) theme to v4 (`hugo modules` based) theme, please read this [migration guide](https://toha-guides.netlify.app/posts/update-v3-to-v4/).
+# CV-HUGO-THEME
 
-# Toha
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b1b93b02-f278-440b-ae1b-304e9f4c4ab5/deploy-status)](https://app.netlify.com/sites/toha/deploys)
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fhugo-toha%2Ftoha%2Fbadge%3Fref%3Dmain&style=flat)](https://actions-badge.atrox.dev/hugo-toha/toha/goto?ref=main)
-![Repository Size](https://img.shields.io/github/repo-size/hugo-toha/toha)
-![Lines of Codes](https://img.shields.io/tokei/lines/github.com/hugo-toha/toha)
-![Contributor](https://img.shields.io/github/contributors/hugo-toha/toha)
-![Latest Release](https://img.shields.io/github/v/release/hugo-toha/toha?include_prereleases)
-![Last Commit](https://img.shields.io/github/last-commit/hugo-toha/toha)
-![Open Issues](https://img.shields.io/github/issues/hugo-toha/toha?color=important)
-![Open Pull Requests](https://img.shields.io/github/issues-pr/hugo-toha/toha?color=yellowgreen)
-![License](https://img.shields.io/github/license/hugo-toha/toha)
-![Security Headers](https://img.shields.io/security-headers?url=https%3A%2F%2Fhugo-toha.github.io%2F)
-[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/b7cb60ab/hugo-toha.github.io)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fjamespoulin007%2Fcv-hugo-theme%2Fbadge%3Fref%3Dmain&style=flat)](https://actions-badge.atrox.dev/jamespoulin007/cv-hugo-theme/goto?ref=main)
+![Repository Size](https://img.shields.io/github/repo-size/jamespoulin007/cv-hugo-theme)
+![Lines of Codes](https://img.shields.io/tokei/lines/github.com/jamespoulin007/cv-hugo-theme)
+![Contributor](https://img.shields.io/github/contributors/jamespoulin007/cv-hugo-theme)
+![Latest Release](https://img.shields.io/github/v/release/jamespoulin007/cv-hugo-theme?include_prereleases)
+![Last Commit](https://img.shields.io/github/last-commit/jamespoulin007/cv-hugo-theme)
+![Open Issues](https://img.shields.io/github/issues/jamespoulin007/cv-hugo-theme?color=important)
+![Open Pull Requests](https://img.shields.io/github/issues-pr/jamespoulin007/cv-hugo-theme?color=yellowgreen)
+![License](https://img.shields.io/github/license/jamespoulin007/cv-hugo-theme)
+![Security Headers](https://img.shields.io/security-headers?url=https%3A%2F%2Fjamespoulin007.github.io%2F)
+[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/b7cb60ab/jamespoulin007.github.io)
 
 A [Hugo](https://gohugo.io/) theme for a personal portfolio with minimalist design and responsiveness.
 
-![Thumbnail](https://raw.githubusercontent.com/hugo-toha/toha/main/images/screenshot.png)
+![Thumbnail](https://raw.githubusercontent.com/jamespoulin007/cv-hugo-theme/main/images/screenshot.png)
 
-- **Example Site:** [hugo-toha.github.io](https://hugo-toha.github.io)
-- **Documentation:** [toha-guides.netlify.app](https://toha-guides.netlify.app/posts)
+- **Example Site:** [jamespoulin007.github.io](https://jamespoulin007.github.io)
+- **Documentation:** [cv-hugo-theme-guides.netlify.app](https://cv-hugo-theme-guides.netlify.app/posts)
 
 ## Features
 
@@ -45,7 +41,7 @@ A [Hugo](https://gohugo.io/) theme for a personal portfolio with minimalist desi
   - [Uttarances](https://utteranc.es/)
   - [Giscus](https://giscus.app/)
 
-For more details about the features please visit [here](https://toha-guides.netlify.app/posts/features/).
+For more details about the features please visit [here](https://cv-hugo-theme-guides.netlify.app/posts/features/).
 
 ## Available Translations
 
@@ -73,23 +69,23 @@ For more details about the features please visit [here](https://toha-guides.netl
 - Nederlands
 - Hebrew
 
-To know more about how to translate your site, please visit [here](https://toha-guides.netlify.app/posts/translation/). Follow, the data and post format from this [example site](https://hugo-toha.github.io).
+To know more about how to translate your site, please visit [here](https://cv-hugo-theme-guides.netlify.app/posts/translation/). Follow, the data and post format from this [example site](https://jamespoulin007.github.io).
 
 ## Screenshots
 
-Here are few screenshots from the [example site](https://hugo-toha.github.io).
+Here are few screenshots from the [example site](https://jamespoulin007.github.io).
 
 ##### Home Page Sections
 
-![Home Page Sections](https://raw.githubusercontent.com/hugo-toha/toha/main/images/about.png)
+![Home Page Sections](https://raw.githubusercontent.com/jamespoulin007/cv-hugo-theme/main/images/about.png)
 
 ##### List Page
 
-![List Page](https://raw.githubusercontent.com/hugo-toha/toha/main/images/list.png)
+![List Page](https://raw.githubusercontent.com/jamespoulin007/cv-hugo-theme/main/images/list.png)
 
 ##### Reading Page
 
-![Reading Page](https://raw.githubusercontent.com/hugo-toha/toha/main/images/single.png)
+![Reading Page](https://raw.githubusercontent.com/jamespoulin007/cv-hugo-theme/main/images/single.png)
 
 ## Requirements
 
@@ -99,7 +95,7 @@ Here are few screenshots from the [example site](https://hugo-toha.github.io).
 
 ## Usage
 
-The easiest way to use this theme is to fork [hugo-toha.github.io](https://github.com/hugo-toha/hugo-toha.github.io) sample repo.Then change the configurations according to your need.
+The easiest way to use this theme is to fork [jamespoulin007.github.io](https://github.com/jamespoulin007/jamespoulin007.github.io) sample repo.Then change the configurations according to your need.
 
 If you want to start from scratch, then follow these steps:
 
@@ -119,10 +115,10 @@ Now, in your `hugo.yaml` file, add a `module` section.
 # Use Hugo modules to add theme
 module:
   imports:
-  - path: github.com/hugo-toha/toha/v4
+  - path: github.com/jamespoulin007/cv-hugo-theme/v4
 ```
 
-Check this sample [hugo.yaml](https://github.com/hugo-toha/hugo-toha.github.io/blob/main/hugo.yaml) for further reference.
+Check this sample [hugo.yaml](https://github.com/jamespoulin007/jamespoulin007.github.io/blob/main/hugo.yaml) for further reference.
 
 ##### 3. Update your module
 
@@ -159,22 +155,22 @@ Now, run you site locally using following command.
 hugo server -w
 ```
 
-When you run your site for first time, it will start with the default parameters. It should look similar to the [example site](https://hugo-toha.github.io). However, it will not have any sections in the homepage as we haven't configured them yet. You can configure your site by following the guides from [here](https://toha-guides.netlify.app/posts/configuration/).
+When you run your site for first time, it will start with the default parameters. It should look similar to the [example site](https://jamespoulin007.github.io). However, it will not have any sections in the homepage as we haven't configured them yet. You can configure your site by following the guides from [here](https://cv-hugo-theme-guides.netlify.app/posts/configuration/).
 
 ## Shortcodes
 
 Here, are some handy shortcodes you can use with this theme.
 
-- [Alert](https://toha-guides.netlify.app/posts/shortcodes/#alert)
-- [Image](https://toha-guides.netlify.app/posts/shortcodes/#image)
-- [Split](https://toha-guides.netlify.app/posts/shortcodes/#split)
-- [Vertical Space](https://toha-guides.netlify.app/posts/shortcodes/#vertical-space)
-- [Video](https://toha-guides.netlify.app/posts/shortcodes/#video)
-- [Mermaid](https://hugo-toha.github.io/posts/shortcodes/#mermaid)
+- [Alert](https://cv-hugo-theme-guides.netlify.app/posts/shortcodes/#alert)
+- [Image](https://cv-hugo-theme-guides.netlify.app/posts/shortcodes/#image)
+- [Split](https://cv-hugo-theme-guides.netlify.app/posts/shortcodes/#split)
+- [Vertical Space](https://cv-hugo-theme-guides.netlify.app/posts/shortcodes/#vertical-space)
+- [Video](https://cv-hugo-theme-guides.netlify.app/posts/shortcodes/#video)
+- [Mermaid](https://jamespoulin007.github.io/posts/shortcodes/#mermaid)
 
 ## Contributing
 
-You can contribute to this theme in various ways. You can report a [bug](https://github.com/hugo-toha/toha/issues/new?template=bug.md), file an [feature request](https://github.com/hugo-toha/toha/issues/new?template=feature_request.md), send a PR, [share your thoughts](https://github.com/hugo-toha/toha/issues/new?template=question.md) etc.
+You can contribute to this theme in various ways. You can report a [bug](https://github.com/jamespoulin007/cv-hugo-theme/issues/new?template=bug.md), file an [feature request](https://github.com/jamespoulin007/cv-hugo-theme/issues/new?template=feature_request.md), send a PR, [share your thoughts](https://github.com/jamespoulin007/cv-hugo-theme/issues/new?template=question.md) etc.
 
 Pull requests are most welcome and I will be happy to review. Just follow the following principles:
 
@@ -187,15 +183,15 @@ Pull requests are most welcome and I will be happy to review. Just follow the fo
 
 ## Local Development
 
-For local development, you can make changes in the theme submodule and test the changes against your own site or this [example site](https://github.com/hugo-toha/hugo-toha.github.io) locally.
+For local development, you can make changes in the theme submodule and test the changes against your own site or this [example site](https://github.com/jamespoulin007/jamespoulin007.github.io) locally.
 
 ### Fork
 
-At first, fork [this repo](https://github.com/hugo-toha/toha). Then, follow the following steps to use the forked theme for local developments,
+At first, fork [this repo](https://github.com/jamespoulin007/cv-hugo-theme). Then, follow the following steps to use the forked theme for local developments,
 
 #### Running the forked theme against the example site
 
-If your want to run your local development against this [example site](https://github.com/hugo-toha/hugo-toha.github.io), follow the following steps:
+If your want to run your local development against this [example site](https://github.com/jamespoulin007/jamespoulin007.github.io), follow the following steps:
 
 ```bash
 # go to exampleSite directory
@@ -217,31 +213,31 @@ If you want to run your local development against your own site, follow the foll
 
 **Replace the theme module:**
 
-Open your site's `go.mod` file and replace the `github.com/hugo-toha/toha/v4` with your forked repo's path. For example, if your forked repo is `github.com/<your-github-user>/toha`, then replace the `github.com/hugo-toha/toha/v4` with `github.com/<your-github-user>/toha/v4`.
+Open your site's `go.mod` file and replace the `github.com/jamespoulin007/cv-hugo-theme/v4` with your forked repo's path. For example, if your forked repo is `github.com/<your-github-user>/cv-hugo-theme`, then replace the `github.com/jamespoulin007/cv-hugo-theme/v4` with `github.com/<your-github-user>/cv-hugo-theme/v4`.
 
 ```go
-module github.com/hugo-toha/hugo-toha.github.io
+module github.com/jamespoulin007/jamespoulin007.github.io
 
 go 1.19
 
-require github.com/hugo-toha/toha/v4 v4.0.1-0.20231229170427-d3968ca711ef // indirect
+require github.com/jamespoulin007/cv-hugo-theme/v4 v4.0.1-0.20231229170427-d3968ca711ef // indirect
 
 replace(
-    github.com/hugo-toha/toha/v4 => github.com/<your-github-user>/toha/v4 <git branch>
+    github.com/jamespoulin007/cv-hugo-theme/v4 => github.com/<your-github-user>/cv-hugo-theme/v4 <git branch>
 )
 ```
 
-For interactive development, you can replace the theme with your locally cloned fork. For example, if you have cloned your fork in `/home/my-projects/toha`, then replace the `github.com/hugo-toha/toha/v4` with `/home/my-projects/toha`.
+For interactive development, you can replace the theme with your locally cloned fork. For example, if you have cloned your fork in `/home/my-projects/cv-hugo-theme`, then replace the `github.com/jamespoulin007/cv-hugo-theme/v4` with `/home/my-projects/cv-hugo-theme`.
 
 ```go
-module github.com/hugo-toha/hugo-toha.github.io
+module github.com/jamespoulin007/jamespoulin007.github.io
 
 go 1.19
 
-require github.com/hugo-toha/toha/v4 v4.0.1-0.20231229170427-d3968ca711ef // indirect
+require github.com/jamespoulin007/cv-hugo-theme/v4 v4.0.1-0.20231229170427-d3968ca711ef // indirect
 
 replace(
-    github.com/hugo-toha/toha/v4 => /home/my-projects/toha
+    github.com/jamespoulin007/cv-hugo-theme/v4 => /home/my-projects/cv-hugo-theme
 )
 ```
 
@@ -276,7 +272,7 @@ $ git commit -m "A meaningful commit message"
 $ git push my-fork my-feature-branch
 ```
 
-Then, open a PR against `main` branch of [hugo-toha/toha](https://github.com/hugo-toha/toha) from the `my-feature-branch` branch of your own fork.
+Then, open a PR against `main` branch of [jamespoulin007/cv-hugo-theme](https://github.com/jamespoulin007/cv-hugo-theme) from the `my-feature-branch` branch of your own fork.
 
 ## Attribution
 
