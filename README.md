@@ -13,7 +13,7 @@
 
 A [Hugo](https://gohugo.io/) theme for a personal portfolio with minimalist design and responsiveness.
 
-![Thumbnail](https://raw.githubusercontent.com/jamespoulin007/cv-hugo-theme/refs/heads/main/images/screenshot.png)
+![Thumbnail](/images/screenshot.png)
 
 ## Features
 
