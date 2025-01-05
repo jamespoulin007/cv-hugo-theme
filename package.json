@@ -1,7 +1,7 @@
 {
-  "author": "Emruz Hossain",
+  "author": "James Poulin",
   "bugs": {
-    "url": "https://github.com/hugo-toha/toha/issues"
+    "url": "https://github.com/jamespoulin007/cv-hugo-theme/issues"
   },
   "comments": {
     "dependencies": {},
@@ -64,13 +64,13 @@
     "postcss": "^8.4.41",
     "postcss-cli": "^11.0.0"
   },
-  "homepage": "https://github.com/hugo-toha/toha#readme",
-  "license": "MIT",
+  "homepage": "https://github.com/jamespoulin007/cv-hugo-theme#readme",
+  "license": "Apache-2.0",
   "main": "index.js",
-  "name": "toha",
+  "name": "cv-hugo-theme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hugo-toha/toha.git"
+    "url": "git+https://github.com/jamespoulin007/cv-hugo-theme.git"
   },
   "scripts": {
     "autoprefixer": "postcss static/css/*/*.css --use autoprefixer -r --no-map",
