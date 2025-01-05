@@ -32,4 +32,4 @@ jobs:
 
             >This PR has been created automatically by Github Action [peter-evans/create-pull-request](https://github.com/peter-evans/create-pull-request).
           labels: "enhancement,automerge"
-          reviewers: hossainemruz
+          reviewers: jamespoulin007
