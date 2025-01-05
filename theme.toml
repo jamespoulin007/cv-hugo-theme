@@ -1,13 +1,13 @@
-name = "Toha"
-license = "MIT"
-licenselink = "https://github.com/hugo-toha/toha/blob/master/LICENSE"
-description = "A simple hugo theme for personal portfolio"
+name = "cv-hugo-theme"
+license = "Apache-2.0"
+licenselink = "https://github.com/jamespoulin007/cv-hugo-theme/blob/main/LICENSE"
+description = "A simple hugo theme for CV"
 
 # The home page of the theme, where the source can be found.
-homepage = "https://github.com/hugo-toha/toha"
+homepage = "https://github.com/jamespoulin007/cv-hugo-theme"
 
 # If you have a running demo of the theme.
-demosite = "https://hugo-toha.github.io/"
+# demosite = "https://.github.io/"
 
 tags = [
   "Portfolio",
@@ -38,8 +38,8 @@ features = [
 ]
 
 [author]
-  homepage = "https://hossainemruz.github.io"
-  name = "Emruz Hossain"
+  # homepage = "https://github.io"
+  name = "James Poulin"
 
 [module]
   [module.hugoVersion]
