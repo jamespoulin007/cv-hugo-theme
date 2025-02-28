@@ -12,4 +12,4 @@ jobs:
     # Create/Update release draft
     - uses: release-drafter/release-drafter@v6.0.0
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.CV_HUGO_THEME_TOKEN }}
