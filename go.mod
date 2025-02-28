@@ -1,3 +1,3 @@
-module github.com/jamespoulin007/cv-hugo-theme/v4
+module github.com/jamespoulin007/cv-hugo-theme
 
 go 1.21

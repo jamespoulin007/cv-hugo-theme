@@ -1,6 +1,6 @@
 ---
 hero: /images/background/sunrise.jpg
 author:
-    name: Md. Emruz Hossain
+    name: James Poulin
     image: /images/profile-image.jpg
 ---

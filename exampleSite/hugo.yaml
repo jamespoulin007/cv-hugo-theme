@@ -5,8 +5,8 @@ title: Example Site
 
 module:
   imports:
-  - path: github.com/hugo-toha/toha/v4
-  - path: github.com/hugo-toha/hugo-toha.github.io
+  - path: github.com/jamespoulin007/cv-hugo-theme
+  - path: github.com/jamespoulin007/jpool.dev
     disable: false
     mounts:
     - source: content
@@ -80,7 +80,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/jamespoulin007/jpool.dev
   # Default branch of your Git repo
   gitBranch: main
 
@@ -138,7 +138,7 @@ params:
       enable: false
       services:
         disqus:
-          shortName: toha-example-site
+          shortName: cv-example-site
         # valine:
         #   appId: HTV6askWxVo3vOxlqjjaq2hd-MsYXbMMI
         #   appKey: pVrT3C85KGIuk27t07eh6bUC
@@ -148,7 +148,7 @@ params:
         #   recordIP: true
         #   enableQQ: true
         # utteranc:
-        #   repo: github.com/hugo-toha/hugo-toha.github.io
+        #   repo: github.com/jamespoulin007/jpool.dev
         #   issueTerm: title
         #   theme: github-light
         # giscus:
