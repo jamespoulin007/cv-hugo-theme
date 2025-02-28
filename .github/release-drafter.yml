@@ -1,9 +1,8 @@
 name-template: 'v$RESOLVED_VERSION'
 tag-template: 'v$RESOLVED_VERSION'
 template: |
-  I am very excited to announce [Hugo](https://gohugo.io/) theme [Toha](https://themes.gohugo.io/toha/) **v$RESOLVED_VERSION**. This release incorporates some improvements and fixes. Please, read the release note and update your theme to enjoy the new changes.
+  [Hugo](https://gohugo.io/) theme **v$RESOLVED_VERSION**. This release incorporates some improvements and fixes.
   
-  Thanks to $CONTRIBUTORS	for their valuable contribution in this release.
   $CHANGES
 
   This release note has been generated automatically by [Release Drafter](https://github.com/marketplace/actions/release-drafter).
