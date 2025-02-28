@@ -119,3 +119,5 @@ Here, are some handy shortcodes you can use with this theme.
 - [Video](https://cv-hugo-theme-guides.netlify.app/posts/shortcodes/#video)
 - [Mermaid](https://jamespoulin007.github.io/posts/shortcodes/#mermaid)
 
+
+
