@@ -1,4 +1,7 @@
 name: Merge to main workflows
+permissions:
+  contents: read
+
 # Run action on push in mater branch
 on:
   push:

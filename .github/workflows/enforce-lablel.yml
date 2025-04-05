@@ -1,5 +1,8 @@
 name: Label Enforcer
 
+permissions:
+  contents: read
+  pull-requests: read
 # Run action on pull request creation, reopening, or label changes
 on:
   pull_request:
