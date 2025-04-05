@@ -1,6 +1,6 @@
 # CV-HUGO-THEME
 
-<!-- [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fjamespoulin007%2Fcv-hugo-theme%2Fbadge%3Fref%3Dmain&style=flat)](https://actions-badge.atrox.dev/jamespoulin007/cv-hugo-theme/goto?ref=main)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fjamespoulin007%2Fcv-hugo-theme%2Fbadge%3Fref%3Dmain&style=flat)](https://actions-badge.atrox.dev/jamespoulin007/cv-hugo-theme/goto?ref=main)
 ![Repository Size](https://img.shields.io/github/repo-size/jamespoulin007/cv-hugo-theme)
 ![Lines of Codes](https://img.shields.io/tokei/lines/github.com/jamespoulin007/cv-hugo-theme)
 ![Contributor](https://img.shields.io/github/contributors/jamespoulin007/cv-hugo-theme)
@@ -9,7 +9,7 @@
 ![Open Issues](https://img.shields.io/github/issues/jamespoulin007/cv-hugo-theme?color=important)
 ![Open Pull Requests](https://img.shields.io/github/issues-pr/jamespoulin007/cv-hugo-theme?color=yellowgreen)
 ![License](https://img.shields.io/github/license/jamespoulin007/cv-hugo-theme)
-![Security Headers](https://img.shields.io/security-headers?url=https%3A%2F%2Fjamespoulin007.github.io%2F) -->
+![Security Headers](https://img.shields.io/security-headers?url=https%3A%2F%2Fjamespoulin007.github.io%2F)
 
 A [Hugo](https://gohugo.io/) theme for a personal portfolio with minimalist design and responsiveness.
 

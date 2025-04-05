@@ -3,6 +3,9 @@ name: PR Workflows
 # Run action on pull request event
 on: [pull_request]
 
+permissions:
+  contents: read
+  pull-requests: write
 
 jobs:
   # Build exampleSite
