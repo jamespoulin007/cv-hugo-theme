@@ -37,13 +37,14 @@
             <h6 class="text-heading">{{ i18n "responsibilities" }}</h6>
             <ul class="justify-content-around">
                 {{ range $position.responsibilities }}
-                    <li>{{ . | markdownify }}</li>
                       {{ if $position.responsibilities.indent }}
                         <ul class="justify-content-around">
                           {{ range $position.responsibilities.indent }}
                             <li>{{ . | markdownify }}</li>
                           {{ end }}
                         </ul>
+                      {{ else }}
+                        <li>{{ . | markdownify }}</li>
                       {{ end }}
                 {{ end }}
             </ul>
