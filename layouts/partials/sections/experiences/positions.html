@@ -33,19 +33,21 @@
             <p class="text-muted">{{ $position.start }} - {{if $position.end }} {{ $position.end }} {{else}} {{ i18n "present" }} {{end}}</p>
         </div>
         <!-- Add the responsibilities handled at this position -->
-        {{ if $position.responsibilities }}
+        {{ with $position.responsibilities }}
             <h6 class="text-heading">{{ i18n "responsibilities" }}</h6>
             <ul class="justify-content-around">
-                {{ range $position.responsibilities }}
-                      {{ if $position.responsibilities.indent }}
-                        <ul class="justify-content-around">
-                          {{ range $position.responsibilities.indent }}
-                            <li>{{ . | markdownify }}</li>
-                          {{ end }}
-                        </ul>
-                      {{ else }}
-                        <li>{{ . | markdownify }}</li>
-                      {{ end }}
+                {{ range . }}
+                  {{ if eq (type .) "string" }}
+                    <li>{{ . | markdownify }}</li>
+                  {{ else if eq (type .) "map" }}
+                    {{ with .indent }}
+                      <ul>
+                        {{ range . }}
+                          <li>{{ . | markdownify }}</li>
+                        {{ end }}
+                      </ul>
+                    {{ end }}
+                  {{ end }}
                 {{ end }}
             </ul>
         {{ end }}
