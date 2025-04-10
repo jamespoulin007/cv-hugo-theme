@@ -3,7 +3,7 @@
   {{ $sectionID = .section.id }}
 {{ end }}
 
-<div class="container-fluid anchor pb-5 experiences-section">
+<div class="container-fluid anchor pb-5 experience-section">
   {{ if not (.section.hideTitle) }}
     <h1 class="text-center">
         <span id="{{ $sectionID }}"></span>{{ .section.name }}</h1>
@@ -13,21 +13,21 @@
   {{ end }}
 
   <div class="container timeline text-justify">
-   {{ $totalExperiences:= len .experiences }}
-   {{ range $index,$experience:= .experiences }}
+   {{ $totalExperience:= len .experience }}
+   {{ range $index,$experience:= .experience }}
      {{ if eq (mod $index 2) 0 }}
        <div class="row align-items-center  d-flex">
-         {{ partial "sections/experiences/vertical-line.html" $index }}
-         {{ partial "sections/experiences/positions.html" $experience }}
+         {{ partial "sections/experience/vertical-line.html" $index }}
+         {{ partial "sections/experience/positions.html" $experience }}
        </div>
      {{else}}
        <div class="row align-items-center justify-content-end d-flex">
-         {{ partial "sections/experiences/positions.html" $experience }}
-         {{ partial "sections/experiences/vertical-line.html" $index }}
+         {{ partial "sections/experience/positions.html" $experience }}
+         {{ partial "sections/experience/vertical-line.html" $index }}
        </div>
      {{ end }}
-     {{ if lt $index (sub $totalExperiences 1) }}
-       {{ partial "sections/experiences/horizontal-line.html" $index }}
+     {{ if lt $index (sub $totalExperience 1) }}
+       {{ partial "sections/experience/horizontal-line.html" $index }}
      {{ end }}
    {{ end }}
   </div>

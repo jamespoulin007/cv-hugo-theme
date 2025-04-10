@@ -1,4 +1,4 @@
-.experiences-section {
+.experience-section {
   @include section-title-adjustment();
 
   padding-bottom: 1rem;
@@ -126,7 +126,7 @@
 }
 
 html[data-theme='dark'] {
-  .experiences-section {
+  .experience-section {
     ul {
       & > li {
         color: get-dark-color('text-color');
