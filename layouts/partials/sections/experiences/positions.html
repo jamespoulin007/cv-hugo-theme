@@ -37,9 +37,9 @@
             <h6 class="text-heading">{{ i18n "responsibilities" }}</h6>
             <ul class="justify-content-around">
                 {{ range . }}
-                  {{ if eq (.Kind) "string" }}
+                  {{ if string . }}
                     <li>{{ . | markdownify }}</li>
-                  {{ else if eq (.Kind) "map" }}
+                  {{ else if reflect.IsMap . }}
                     {{ with .indent }}
                       <ul>
                         {{ range . }}
