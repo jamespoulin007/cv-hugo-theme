@@ -1,0 +1,56 @@
+{{/* Extends the baseof.html layout */}}
+
+{{ define "title" }}
+  {{ .Title }}{{ with site.Title }} | {{ . }}{{ end }}
+{{ end }}
+
+{{ define "header" }}
+  {{/* Basic meta description for the CV page */}}
+  {{ $aboutData := site.Data.en.sections.about }}
+  <meta name="description" content="{{ .Title }}{{ with $aboutData.designation }} - {{ . }}{{ end }}{{ with $aboutData.company.name }} at {{ . }}{{ end }}." />
+{{ end }}
+
+<!-- {{ define "navbar" }}
+  {{/* You might want a specific navbar or reuse the default */}}
+  {{ partial "navigators/navbar.html" . }}
+{{ end }} -->
+
+<!-- {{ define "sidebar" }}
+  {{/* CV page probably doesn't need a sidebar, so this can be left empty or defined minimally */}}
+  {{/* Alternatively, completely omit this define if baseof.html handles its absence gracefully */}}
+{{ end }} -->
+
+{{ define "content" }}
+<section class="content-section" id="content-section">
+  <div class="content">
+    {{/* Using a container to constrain width and add padding, similar to other pages but simpler */}}
+    <div class="container p-3 p-lg-4">
+      {{/* Page title, if desired. The cv.md front matter has a title. */}}
+      <div class="text-center pt-4 pb-2">
+        <h1>{{ .Title }}</h1>
+      </div>
+
+      {{/* Call the CV sections */}}
+      {{ $aboutData := site.Data.en.sections.about }}
+      {{ if $aboutData }}
+        {{ partial "sections/about.html" $aboutData }}
+      {{ end }}
+
+      {{ $experienceData := site.Data.en.sections.experience }}
+      {{ if $experienceData }}
+        {{ partial "sections/experience.html" $experienceData }}
+      {{ end }}
+      
+      {{ $skillsData := site.Data.en.sections.skills }}
+      {{ if $skillsData }}
+        {{ partial "sections/skills.html" $skillsData }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- {{ define "toc" }}
+  {{/* CV page as a whole doesn't have a TOC in the same way a blog post might */}}
+  {{/* So this block can be empty or omitted */}}
+{{ end }} -->
